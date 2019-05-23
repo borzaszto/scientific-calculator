@@ -1,7 +1,13 @@
-/***********************/
-/* The main css file.  */
-/***********************/
+/**  Main SCSS file
+*
+* Following file is the base file for styling.
+* Components goes under corresponding map, and incldues here if used.
+*
+*/
 
 * {
     transition: all 0.25s ease;
 }
+
+@import './components/header'; 
+@import './components/footer'; 
