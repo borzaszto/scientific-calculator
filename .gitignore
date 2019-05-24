@@ -1,0 +1,7 @@
+# Junk
+.vscode
+
+# Compillations
+node_modules
+public/assets/styles/*.css
+public/assets/scripts/*.css
