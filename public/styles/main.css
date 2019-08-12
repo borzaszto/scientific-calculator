@@ -1,3 +1,30 @@
+/* Reset */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, 
+a, abbr, img, ol, ul, li, form, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, 
+footer, header, hgroup, menu, nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Reset */
+
 @font-face {
     font-family: 'Lato';
     font-style: normal;
@@ -82,10 +109,6 @@ button:active {
 
 button:focus {
     padding: 0;
-    outline: none !important;
-    border: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
   }
 
 .a {
