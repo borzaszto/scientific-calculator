@@ -111,27 +111,27 @@ button:focus {
     padding: 0;
   }
 
-.a {
+.dark {
     background-color: #001E42;
 }
 
-.a:hover {
+.dark:hover {
     background-color: #001835;
 }
 
-.b {
+.light {
     background-color: #0A65BC;
 }
 
-.b:hover {
+.light:hover {
     background-color: #095DAC;
 }
 
-.c {
+.highlight {
     background-color: #007DF2;
 }
 
-.c:hover {
+.highlight:hover {
     background-color: #0076E5;
 }
 
