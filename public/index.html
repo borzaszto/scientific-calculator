@@ -17,25 +17,32 @@
         <div class="container">
             <div class="calculator">
                 <div class="grid">
-                    <div class="display history">1,457 + 932 + 1,068 =</div>
-                    <div class="display result">3,457</div>
-                    <button class="dark">C</button>
+                    <div id="history" class="display history"><!-- 1,457 + 932 + 1,068 = --></div>
+                    <div class="display result"><!-- 3,457-->0</div>
+
+                    <button id="clear_button" class="dark">C</button>
                     <button class="dark">+/-</button>
                     <button class="dark">%</button>
                     <button class="light">/</button>
-                    <button class="dark">7</button>
-                    <button class="dark">8</button>
-                    <button class="dark">9</button>
+
+                    <button id="number_7_button" class="dark">7</button>
+                    <button id="number_8_button" class="dark">8</button>
+                    <button id="number_9_button" class="dark">9</button>
+
                     <button class="light">x</button>
-                    <button class="dark">4</button>
-                    <button class="dark">5</button>
-                    <button class="dark">6</button>
+
+                    <button id="number_4_button" class="dark">4</button>
+                    <button id="number_5_button" class="dark">5</button>
+                    <button id="number_6_button" class="dark">6</button>
+
                     <button class="light">-</button>
-                    <button class="dark">1</button>
-                    <button class="dark">2</button>
-                    <button class="dark">3</button>
-                    <button class="light">+</button>
-                    <button class="dark">0</button>
+
+                    <button id="number_1_button" class="dark">1</button>
+                    <button id="number_2_button" class="dark">2</button>
+                    <button id="number_3_button" class="dark">3</button>
+
+                    <button id="plus_operator" class="light">+</button>
+                    <button id="number_0_button" class="dark">0</button>
                     <button class="dark">.</button>
                     <button class="dark">del</button>
                     <button class="highlight">=</button>
@@ -46,7 +53,7 @@
         <footer>
             <span>©️ theCollectiveDevelopers</span>
         </footer>
-        
+        <script src="js/simpleFunctions.js"></script>
         <script src="" async defer></script>
     </body>
 </html>
